@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import axios from 'axios';
-export default () => {
+const ProductManager = () => {
 
     const [title, setTitle] = useState(""); 
     const [price, setPrice] = useState();
@@ -39,3 +39,4 @@ export default () => {
     )
 }
 
+export default ProductManager;
